@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "front": "apple",
+        "back": "яблоко"
+    },
+    {
+        "id": 2,
+        "front": "red",
+        "back": "красный"
+    },
+    {
+        "id": 3,
+        "front": "blue",
+        "back": "голубой"
+    },
+    {
+        "id": 4,
+        "front": "car",
+        "back": "машина"
+    },
+    {
+        "id": 5,
+        "front": "reflection",
+        "back": "рефлексия"
+    },
+    {
+        "id": 6,
+        "front": "bear",
+        "back": "медведь"
+    },
+    {
+        "id": 7,
+        "front": "beer",
+        "back": "пиво"
+    },
+    {
+        "id": 8,
+        "front": "Card",
+        "back": "Карточка"
+    },
+    {
+        "id": 9,
+        "front": "Head",
+        "back": "Голова"
+    },
+    {
+        "id": 10,
+        "front": "feet",
+        "back": "ноги"
+    }
+]
