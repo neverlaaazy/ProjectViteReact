@@ -2,51 +2,91 @@
     {
         "id": 1,
         "front": "apple",
-        "back": "яблоко"
+        "back": "яблоко",
+        "setName":"English"
     },
     {
         "id": 2,
         "front": "red",
-        "back": "красный"
+        "back": "красный",
+        "setName":"English"
     },
     {
         "id": 3,
         "front": "blue",
-        "back": "голубой"
+        "back": "голубой",
+        "setName":"English"
     },
     {
         "id": 4,
         "front": "car",
-        "back": "машина"
+        "back": "машина",
+        "setName":"English"
     },
     {
         "id": 5,
         "front": "reflection",
-        "back": "рефлексия"
+        "back": "рефлексия",
+        "setName":"English"
     },
     {
         "id": 6,
-        "front": "bear",
-        "back": "медведь"
+        "front": "margin",
+        "back": "внешний отступ",
+        "setName":"css"
     },
     {
         "id": 7,
-        "front": "beer",
-        "back": "пиво"
+        "front": "padding",
+        "back": "внутренний отступ",
+        "setName":"css"
     },
     {
         "id": 8,
-        "front": "Card",
-        "back": "Карточка"
+        "front": "display",
+        "back": "дисплей / экран",
+        "setName":"css"
     },
     {
         "id": 9,
-        "front": "Head",
-        "back": "Голова"
+        "front": "style",
+        "back": "стиль",
+        "setName":"css"
     },
     {
         "id": 10,
-        "front": "feet",
-        "back": "ноги"
+        "front": "width",
+        "back": "ширина",
+        "setName":"css"
+    },
+    {
+        "id": 11,
+        "front": "a",
+        "back": "ссылка",
+        "setName":"html"
+    },
+    {
+        "id": 12,
+        "front": "button",
+        "back": "кнопка",
+        "setName":"html"
+    },
+    {
+        "id": 13,
+        "front": "h1",
+        "back": "заголовок 1-го уровня",
+        "setName":"html"
+    },
+    {
+        "id": 14,
+        "front": "p",
+        "back": "параграф",
+        "setName":"html"
+    },
+    {
+        "id": 15,
+        "front": "h2",
+        "back": "заголовок 2-го уровня",
+        "setName":"html"
     }
 ]
