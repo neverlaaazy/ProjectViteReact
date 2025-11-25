@@ -2,10 +2,8 @@ import {Header} from './Header';
 import { Set } from "./Set.jsx"; 
 
 export function PageViewSet(){
-    return 
-    <>
+    return <>
         <Header/>
         <Set/>
     </>
-    ;
 }

@@ -1,0 +1,37 @@
+.form-Cset{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+
+.form-Cset-label{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.form-Cset-inputButton{
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: #646cff;
+    color: white;
+    border: #646cff 2px solid;
+    transition: all 0.2s ease-in-out;
+}
+.form-Cset-inputButton:hover,
+.form-Cset-inputButton:focus{
+    background-color: white;
+    color: #646cff;
+}
+
+
+.form-Cset-input{
+    width: 200px;
+}
+
+.form-Cset-textarea{
+    width: 200px;
+}

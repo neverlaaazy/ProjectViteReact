@@ -1,0 +1,26 @@
+.header{
+    min-height: 117px;
+    width: 100%;
+    padding-bottom: 200px;
+}
+.flash__link{
+    color: #646cff;
+    transition: color 0.2s ease-in-out;
+}
+.flash__link:hover,
+.flash__link:focus{
+    color: aliceblue;
+}
+.main-menu-ul li{
+    padding-top: 20px;
+    list-style-type: none;
+}
+.main-menu__link{
+    font-size: large;
+    color: aliceblue;
+    transition: color 0.2s ease-in-out;
+}
+.main-menu__link:hover,
+.main-menu__link:focus{
+    color: #646cff;
+}

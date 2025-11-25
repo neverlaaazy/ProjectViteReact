@@ -58,35 +58,5 @@
         "front": "width",
         "back": "ширина",
         "setName":"css"
-    },
-    {
-        "id": 11,
-        "front": "a",
-        "back": "ссылка",
-        "setName":"html"
-    },
-    {
-        "id": 12,
-        "front": "button",
-        "back": "кнопка",
-        "setName":"html"
-    },
-    {
-        "id": 13,
-        "front": "h1",
-        "back": "заголовок 1-го уровня",
-        "setName":"html"
-    },
-    {
-        "id": 14,
-        "front": "p",
-        "back": "параграф",
-        "setName":"html"
-    },
-    {
-        "id": 15,
-        "front": "h2",
-        "back": "заголовок 2-го уровня",
-        "setName":"html"
     }
 ]

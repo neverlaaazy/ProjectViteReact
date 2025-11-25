@@ -1,11 +1,32 @@
 import React from "react";
 import {Header} from './Header';
+import {BtnSet} from './BtnSet';
+import cards from '../data.json';
 
 export function PageSelectSet(){
-    return
-    <div>
+    // const cards = require("../data");
+
+    const sets = cards.reduce(
+        (acc,item) => {
+            if(acc.map[item.setName])
+                return acc;
+            acc.map[item.setName] = true;
+            acc.sets.push(item.setName);
+            return acc;
+        },
+        {
+            map:{},
+            sets:[],
+        }
+    ).sets.map((item,index)=>(
+        <BtnSet key={index} name={item} id={index}/>
+    ));
+
+    return<div>
         <Header/>
         <h2>Выбор сетов</h2>
-    </div>
-    ;
+        <ul className="set-list">
+            {sets}
+        </ul>
+    </div>;
 }
