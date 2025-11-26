@@ -7,17 +7,19 @@ import { useLocation, useParams } from "react-router-dom";
 
 export function Set(){
     const param = useParams();
-    console.log(param.id);
+    // console.log(param.id);
 
     const location = useLocation()
     const {set} = location.state;
+    // console.log(set);
 
     // const cards = require('../data').filter((item)=>(item.setName === set));
-    cards.filter((item)=>(item.setName === set));
+    let filterCards = cards.filter((item)=>(item.setName === set));
+    // console.log(filterCards);
     const [step, setStep] = React.useState(0);
 
     const handleNext = () => {
-        if (step < cards.length - 1) {
+        if (step < filterCards.length - 1) {
             setStep(step + 1);
         }
     };
@@ -29,15 +31,15 @@ export function Set(){
     };
 
     const isFirstStep = step === 0;
-    const isLastStep = step === cards.length - 1;
+    const isLastStep = step === filterCards.length - 1;
 
-    console.log(cards.length);
+    // console.log(filterCards.length);
     return (
         <div>
             <div className="main_div_cards">
                 <div className="div_cards">
                     <h2>Название набора</h2>
-                    <Card front={cards[step].front} back={cards[step].back}/>
+                    <Card front={filterCards[step].front} back={filterCards[step].back}/>
                     <div className="cards_manipulator">
                         <button 
                             className={`cards_mani_button cards_mani_button_left ${isFirstStep ? 'button_disabled' : ''}`}
@@ -46,7 +48,7 @@ export function Set(){
                         >
                             ←
                         </button>
-                        <p className="cards_mani_list">{step+1}/{cards.length}</p>
+                        <p className="cards_mani_list">{step+1}/{filterCards.length}</p>
                         <button 
                             className={`cards_mani_button cards_mani_button_right ${isLastStep ? 'button_disabled' : ''}`}
                             onClick={handleNext}

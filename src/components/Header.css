@@ -9,7 +9,17 @@
 }
 .flash__link:hover,
 .flash__link:focus{
-    color: aliceblue;
+    color: #2c3074;
+}
+.main-menu{
+    display: flex;
+    justify-content: center;
+}
+.main-menu-ul{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
 }
 .main-menu-ul li{
     padding-top: 20px;
@@ -17,10 +27,10 @@
 }
 .main-menu__link{
     font-size: large;
-    color: aliceblue;
+    color: #333;
     transition: color 0.2s ease-in-out;
 }
 .main-menu__link:hover,
 .main-menu__link:focus{
-    color: #646cff;
+    color: #707070;
 }

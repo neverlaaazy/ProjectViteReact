@@ -1,15 +1,17 @@
+import './FormCreateSet.css';
+
 export function FormCreateCard(){
     return(
-        <form>
-            <label>
+        <form className='form'>
+            <label className='form-label'>
                 Передняя сторона карточки:
-                <input type="text" name="fronttext"/>
+                <input className='form-input' type="text" name="fronttext"/>
             </label>
-            <label>
+            <label className='form-label'>
                 Задняя сторона карточки:
-                <input type="text" name="backtext"/>
+                <input className='form-input' type="text" name="backtext"/>
             </label>
-            <input type="submit" value="Создать карточку"/>
+            <input className='form-inputButton form-InBuCard' type="submit" value="Создать карточку"/>
         </form>
     );
 }

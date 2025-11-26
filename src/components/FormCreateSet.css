@@ -1,18 +1,18 @@
-.form-Cset{
+.form{
     padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items:end;
 }
 
-.form-Cset-label{
+.form-label{
     display: flex;
     width: 400px;
     justify-content: space-between;
     margin-top: 10px;
 }
 
-.form-Cset-inputButton{
+.form-inputButton{
     margin-top: 30px;
     width: 100px;
     height: 30px;
@@ -21,17 +21,21 @@
     border: #646cff 2px solid;
     transition: all 0.2s ease-in-out;
 }
-.form-Cset-inputButton:hover,
-.form-Cset-inputButton:focus{
+.form-inputButton:hover,
+.form-inputButton:focus{
     background-color: white;
     color: #646cff;
 }
 
 
-.form-Cset-input{
+.form-input{
     width: 200px;
 }
 
-.form-Cset-textarea{
+.form-textarea{
     width: 200px;
+}
+
+.form-InBuCard{
+    width: 150px;
 }
