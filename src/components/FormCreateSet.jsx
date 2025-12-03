@@ -1,34 +1,49 @@
+import { useState } from 'react';
+import { useInput } from './UseInput';
+import { useForm } from 'react-hook-form';
 import './FormCreateSet.css';
 
 export function FormCreateSet(){
-    const [name, setName] = React.useState('');
+    // const [name, setName] = useInput('');
+    // const [discription, setDiscription] = useInput('');
 
-    function handleNameChange(e){
-        setName(e.target.value)
-    }
+    // function handleSubmit(e){
+    //     e.preventDefault();
+    //     console.log(`Название набора: ${name};\nОписание: ${discription}.`);
+    // }
 
-    function handleSubmit(e){
-        e.preventDefault();
-        console.log(name);
-    }
+    const {register, handleSubmit} = useForm();
 
     return (
-        <form className="form" onSubmit={handleSubmit}>
-            <label className='form-label'>
-                Название набора:
+        <form onSubmit={handleSubmit((data) => {
+            console.log(data);
+        })}>
+            <div className='form__item'>
+                <label htmlFor="name">
+                    Название набора:
+                </label>
                 <input 
-                    className='form-input' 
                     type="text" 
-                    name="name" 
+                    name='name' 
                     id='name'
-                    value={name}
-                    onChange={handleNameChange}/>
-            </label>
-            <label className='form-label'>
-                Описание:
-                <textarea className='form-textarea' name="discription" id='discription'/>
-            </label>
-            <input className='form-inputButton' type="submit" value="Создать сет"/>
+                    {...register("name",{required:true, minLength:4})}
+                />
+            </div>
+            <div className='form__item'>
+                <label htmlFor="discription">
+                    Описание:
+                </label>
+
+                <textarea 
+                    name="discription" 
+                    id="discription"
+                    {...register("discription",{required:true})}>
+                </textarea>
+
+            </div>
+            <div className='form__item'>
+                <input className='form__item_button' type="submit" value="Создать сет"/>
+            </div>
         </form>
     );
 }
