@@ -14,10 +14,10 @@ function App() {
       <Routes>
         <Route path='/' element={<PageSelectSet/>}/>
         <Route path='/set/:id' element={<PageViewSet/>}/>
-        <Route path='/admin' element={<PageCreateSet/>}>
+        {/* <Route path='/admin' element={<PageCreateSet/>}>
           <Route path='createset' element={<FormCreateSet/>}/>
           <Route path='createcard' element={<FormCreateCard/>}/>
-        </Route>
+        </Route> */}
         <Route path='*' element={<PageNotFound/>}/>
       </Routes>
     </BrowserRouter>

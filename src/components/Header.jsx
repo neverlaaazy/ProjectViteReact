@@ -10,12 +10,12 @@ export function Header() {
             </h1>
             <nav className='main-menu'>
                 <ul className='main-menu-ul'>
-                    <li>
+                    {/* <li>
                         <Link className='main-menu__link' to="/admin/createset">Создать сет</Link>
                     </li>
                     <li>
                         <Link className='main-menu__link' to="/admin/createcard">Создать карточку</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </div>

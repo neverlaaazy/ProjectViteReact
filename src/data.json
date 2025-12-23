@@ -1,62 +1,16 @@
 [
     {
         "id": 1,
-        "front": "apple",
+        "front": "Оригинал",
         "back": "яблоко",
-        "setName":"English"
+        "link": "../src/audio",
+        "setName":"song"
     },
     {
         "id": 2,
-        "front": "red",
-        "back": "красный",
-        "setName":"English"
-    },
-    {
-        "id": 3,
-        "front": "blue",
-        "back": "голубой",
-        "setName":"English"
-    },
-    {
-        "id": 4,
-        "front": "car",
-        "back": "машина",
-        "setName":"English"
-    },
-    {
-        "id": 5,
-        "front": "reflection",
-        "back": "рефлексия",
-        "setName":"English"
-    },
-    {
-        "id": 6,
-        "front": "margin",
-        "back": "внешний отступ",
-        "setName":"css"
-    },
-    {
-        "id": 7,
-        "front": "padding",
-        "back": "внутренний отступ",
-        "setName":"css"
-    },
-    {
-        "id": 8,
-        "front": "display",
-        "back": "дисплей / экран",
-        "setName":"css"
-    },
-    {
-        "id": 9,
-        "front": "style",
-        "back": "стиль",
-        "setName":"css"
-    },
-    {
-        "id": 10,
-        "front": "width",
-        "back": "ширина",
-        "setName":"css"
+        "front": "Оригинал",
+        "back": "я",
+        "link": "",
+        "setName":"song"
     }
 ]
